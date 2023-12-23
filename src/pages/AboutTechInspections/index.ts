@@ -1,0 +1,1 @@
+export { AboutTechInspection } from './ui';

@@ -1,0 +1,1 @@
+export { CreateTechInspectionPage } from './ui';

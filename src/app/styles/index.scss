@@ -4,27 +4,15 @@
 @import url("./fonts.scss");
 
 .app {
-    display: flex;
-    flex-direction: column;
-    max-width: 1920px;
-    margin: 0 auto;
-    position: relative;
-    font-family: 'PT Astra Sans', serif;
-    color: var(--color-text);
-
-    @media (min-width: 1366px) {;
-        width: 1200px;
-    }
-
-    @media (min-width: 1440px) {;
-        width: 1366px;
-    }
-
-    @media (min-width: 1536px) {
-        width: 1440px;
-    }
-
-    @media (min-width: 360px) {
-        padding: 0 20px;
-    }
+  display: flex;
+  flex-direction: column;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  font-family: 'PT Astra Sans', serif;
+  color: var(--color-text);
+    
+  @media (min-width: 1536px) {
+    width: 1440px;
+  }
 }

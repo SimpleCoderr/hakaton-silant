@@ -1,16 +1,17 @@
 import React from "react";
 import App from "./app";
-import ReactDOM from 'react-dom'
 import {BrowserRouter} from "react-router-dom";
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
+import {createRoot} from "react-dom/client";
+
+const root = createRoot(document.getElementById('root'))
 
 const queryClient = new QueryClient()
 
-ReactDOM.render(
+root.render(
     <QueryClientProvider client={queryClient}>
         <BrowserRouter>
             <App/>
         </BrowserRouter>
     </QueryClientProvider>,
-    document.getElementById('root')
 )

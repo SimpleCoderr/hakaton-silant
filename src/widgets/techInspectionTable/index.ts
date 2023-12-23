@@ -1,0 +1,1 @@
+export {TechInspectionTable} from './ui'
