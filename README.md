@@ -1,7 +1,7 @@
 # Приложение КВИЗ
 
 ## 🔗 Ссылка на деплой
-[![quiz-app](simplecoderr.github.io/hakaton-silant/)
+[![quiz-app](simplecoderr.github.io/hakaton-silant/)]
 
 ## Author
 
