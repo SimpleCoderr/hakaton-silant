@@ -1,4 +1,4 @@
-# Приложение КВИЗ
+# Приложение
 
 ## 🔗 Ссылка на деплой
 [![quiz-app](https://custom-icon-badges.demolab.com/badge/fire-red.svg?logo=fire&logoColor=fff)](simplecoderr.github.io/hakaton-silant/)
